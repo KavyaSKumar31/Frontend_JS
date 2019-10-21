@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact IBM</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/ibm-logo.png" alt="IBM logo">
+        <nav id="mainNav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="download.html">DOWNLOADS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="signin.html">SIGN IN</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>
+            CONTACT US - Fill in the form below
+        </h1>
+        <form action="formSubmission.php" method="post">
+
+            <div class="formfield">
+                <label for="fullName">Enter full name <sup>*</sup>:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required autofocus>
+            </div>
+            <div class="formfield">
+                <label for="email">Enter email <sup>*</sup>:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your valid email" required><br>
+            </div>
+            <div class="formfield">
+                <label for="telephone">Enter Telephone number<sup>*</sup> :</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Telephone" required minlength="8"
+                    maxlength="10"> <br>
+            </div>
+            <div class="formfield">
+                <label for="age">Enter Age<sup>*</sup> :</label>
+                <input type="number" id="age" name="age" placeholder="Age" required max="60" min=18 step="10">
+            </div>
+            <div class="formfield">
+                <label for="typeOfQuery">Enter type of query<sup>*</sup> :</label>
+                <select id="typeOfQuery" name="typeOfQuery">
+                    <option value="1">Business Consulting</option>
+                    <option value="2"> Software support</option>
+                    <option value="3"> Reporting issues in software</option>
+                    <option value="4">Investor related </option>
+                    <option value="5"> Media relations</option>
+                </select>
+            </div>
+            <div class="formfield">
+                <label for="query"> Enter the query<sup>*</sup>:</label>
+                <textarea id="query" placeholder="Enter your query"></textarea>
+            </div>
+            <div class="formfield">
+                <button class="sendBtn" type="submit"> Submit this form </button>
+                <button class="resetBtn" type="reset"> Reset </button>
+            </div>
+        </form>
+        <p> <h3 style="color:black;">We are here!</h3></p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15547.160425319873!2d77.620167!3d13.0490282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22254ae8af264cd5!2sIBM%20India%20D3%20Block!5e0!3m2!1sen!2sin!4v1567596634262!5m2!1sen!2sin"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </main>
+    <footer style="clear:left;">
+            <nav id="secNav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="download.html">DOWNLOADS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="signin.html">SIGN IN</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+    
+            </nav>
+    
+            <h3>
+                <p> Copyright &copy; 2019 </p>
+            </h3>
+        </footer> 
+
+</body>
+
+</html>

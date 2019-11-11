@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* my code */
+
+header {
+    background-color: rgb(59, 89, 153);
+    font-family: helvetica;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    line-height:40px;
+    font-size:32px;
+    color:black;
+    font-weight:600;
+}
+h2{
+    line-height:28px;
+    font-size:15px;
+    color:#606770;
+}
+h3{
+    font-size:12px;
+    line-height:24px;
+    font-weight:400;
+    color:#606770;
+}
+h4{
+    font-size:11px;
+    line-height:24px;
+    color:#777777;
+}
+h6{
+    font-weight:700;
+    font-size:28px;
+    line-height:34px;
+    color:black;
+}
+#connect{
+    position: absolute;
+    top:150px;
+    left:190px;
+}
+button {
+    float: center;
+}
+#name{
+    color:white;
+    font-weight:600;
+    font-size:45px;
+    padding-top:40px;
+    padding-left:270px;
+    line-height: 17px;
+}
+#email{
+    top:20px;
+    right:400px;
+    position:absolute;
+    color:white;
+    line-height: 25px;
+}
+#pass{
+    line-height: 25px;
+    top:20px;
+    right:200px;
+    position:absolute;
+    color:white;
+}
+#login{
+    position: absolute;
+    top:40px;
+    right:100px;
+    /* font-weight:700;
+    line-height:20px;
+    font-size:18px;
+    color:blue; */
+    
+
+}
+
+body {
+    background-color: rgb(231, 245, 232);
+}
+img{
+    height:250px;
+    float:left;
+    width:50%;
+    padding:200px;
+}
+#right,#left{
+    float:left;
+    width:50%;
+}
+#right{
+    
+    line-height:27px;
+    font-size:16px;
+}
+#content{
+    font-weight:400;
+    line-height: 16px;
+    font-size:15px;
+    color: #1c1e21;
+    margin:10px;
+}

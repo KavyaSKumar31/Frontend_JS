@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(45deg, #0077b5, #008891);
+    background-attachment: fixed;
+    background-color: #0077b5;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.maincontainer {
+    margin-top: 20px;
+    height: 550px;
+    width: 400px;
+    padding-top: 5px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 25px;
+    background: #cccfd3;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    color: black;
+    background: #0077b5;
+    border: #0077b5;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.btn {
+    width: 300px;
+}
+
+.form-group {
+    padding-right: 0px;
+}
+
+#foordiv {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #cccfd3;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    padding: 15px 30px 30px 30px;
+}

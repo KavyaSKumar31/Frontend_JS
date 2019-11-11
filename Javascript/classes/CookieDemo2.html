@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p> Click the button to display the date.</p>
+    <button onclick="replaceWord()"> The time is? </button>
+    <script>
+        function displayDate(){
+            document.getElementById("demo").innerHTML=Date();       
+         }
+        function replaceWord(){
+            document.getElementById("demo").innerHTML="IBM";
+        }
+    </script>
+<p id="demo"></p>
+</body>
+
+</html>

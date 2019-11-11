@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/sign-up.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <title>Sign Up|LinkedIn</title>
+    <script src="signup.js"></script>
+</head>
+
+<body>
+    <header>
+        <h3>Linked<span class="badge badge-light" style="color: #0077b5">in</span></h3>
+        <h4>Make the most of your professional life</h4>
+    </header>
+    <main>
+        <center>
+            <div class="maincontainer">
+                <div class="container">
+
+                    <form onsubmit="return validateForm1();" name="signup" action="signin.html" method="GET" novalidate>
+
+                        <div class="form-group">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" class="form-control" id="firstname" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname" name="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                        <p>You agree to the LinkedIn User Agreement, Privacy Policy, <br>
+                            and Cookie Policy.</p>
+                        <a style="color: white;" href="sign-in.html"><button type="submit"
+                                class="btn btn-primary btn-lg btn-block" id="si"> Agree & Join </a>
+                </div>
+                <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Agree & Join</button> -->
+                </form><br>
+
+                <p>Already on LinkedIn? <a href="sign-in.html"><span style="color: black;">Sign In</span> </a></p>
+            </div>
+            </div>
+        </center>
+
+    </main>
+    <footer>
+        <div id="foordiv">
+            <p>LinkedIn Corporation © 2019</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

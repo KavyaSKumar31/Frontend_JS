@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var eid = 101
+        var name = 'Arjun'
+        var salary = 3.6
+        console.log(typeof eid)
+        console.log(typeof name)
+        console.log(typeof salary)
+        var strQuantity = "10"
+        var strDiscount = "10.25"
+        console.log(strQuantity)
+        console.log(strDiscount)
+        var quantity = parseInt(strQuantity)
+        var discount = parseFloat(strDiscount)
+        console.log(typeof quantity)
+        console.log(typeof discount)
+        // operators
+        var a = 10
+        var b = 3
+        console.log(a + b)
+        console.log(a - b)
+        console.log(a * b)
+        console.log(a / b)
+        console.log(a ** b)
+        console.log(a % b)
+
+        console.log(a == b)
+        console.log(a != b)
+        console.log(a > b)
+        console.log(a >= b)
+        console.log(a < b)
+        console.log(a <= b)
+
+        //falsy and truthy values
+        var flag = 0;
+        if (flag) {
+            console.log('truthy');
+        } else {
+            console.log('falsy');
+        }
+
+        //Arrays
+        var fruitsToBuy = ['Apple', 'Oranges', 'Bananas'];
+        console.log(fruitsToBuy);
+
+        //scope variable/function
+        function foo() {
+            if (true) {
+                var c = 'Varaible in a block within foo';
+                console.log('c (inside if block)= ', c);
+            }
+            console.log('c(outside if block)=', c)
+
+        }
+        foo();
+        console.log('c=', c);
+    </script>
+</body>
+
+</html>

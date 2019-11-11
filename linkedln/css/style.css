@@ -1,0 +1,90 @@
+#mainImage {
+    position: absolute;
+    bottom: -80px;
+    left: 750px;
+}
+
+#linkedInlogo {
+    position: absolute;
+    top: 15px;
+    left: 220px;
+}
+
+#welcome {
+    position: absolute;
+    left: 200px;
+    top: 155px;
+}
+
+#searchBox {
+    display: inline;
+    padding-bottom: 15px;
+    margin:10px;
+    
+}
+
+.searchButton {
+    color: rgb(138, 130, 130);
+    font-size: 16px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left:220px;
+    top:500px;
+    padding:13px;
+    padding-right: 160px;
+    
+}
+.searchButton:hover{
+    border-color:rgb(0,96,151);
+    
+}
+#join{
+    position: absolute;
+    left:74%;
+    
+    background-color: #ffffff;
+    font-size:16px;
+    font-weight:600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    padding:10px;
+    top:13px;
+}
+#join:hover{
+    background-color:rgb(243,243,243);
+    border:none;
+
+}
+#SignInButton{
+    
+    position: absolute;
+    left:80%;
+    background-color: #ffffff;
+    border-color: rgb(0,96,151);
+    border-width:1px;
+    padding:10px 20px 10px 20px;
+    color: rgb(0,96,151);
+    font-size:16px;
+    font-weight:600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top:15px;
+}
+#SignInButton:hover{
+    background-color: rgb(229,245,252);
+    border-width:2px;
+}
+#divMsg{
+    padding-bottom: 15px;
+    margin:10px;
+    color: rgb(121, 113, 113);
+    font-size: 16px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left:220px;
+    top:440px;
+    padding:13px;
+    padding-right: 160px;
+    
+}

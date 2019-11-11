@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact IBM</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="ibm-logo.png" alt="Chrome logo">
+        <div id="mainNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+    <div>
+        <h1>
+            Contact Us -- fill in the form below
+        </h1>
+        <form action="formSubmission.php" method="post">
+
+            <div>
+                <label for="fullName">Enter full name :</label>
+                <input type="text" id="fullName" name="email">
+            </div>
+            <div>
+                <label for="email">Enter email :</label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <label for="typeOfQuery">Enter type of query :</label>
+                <select id="typeOfQuery" name="typeOfQuery">
+                    <option value="1">Business Consulting</option>
+                    <option value="2"> Software support</option>
+                    <option value="3"> Reporting issues in software</option>
+                    <option value="4">Investor related </option>
+                    <option value="5"> Media relations</option>
+                </select>
+            </div>
+            <div>
+                <label for="query"> Enter the query</label>
+                <textarea id="query"></textarea>
+            </div>
+            <div>
+                <button type="submit"> Submit this form </button>
+                <input type="submit" value="Send Query">
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LinkedIn India: Log In or Sign Up</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+        function showHideDiv(ele) {
+            var srcElement = document.getElementById(ele);
+            if (srcElement != null) {
+                if (srcElement.style.display == "block") {
+                    srcElement.style.display = 'none';
+                }
+                else {
+                    srcElement.style.display = 'block';
+                }
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="mainImage">
+        <img src="images/Capture.PNG">
+    </div>
+    <div id="linkedInlogo">
+        <img src="images/logo.PNG">
+    </div>
+    <div id="welcome">
+        <img src="images/welcome.PNG">
+    </div>
+    <div id="searchBox">
+
+        <button class="searchButton" onClick="showHideDiv('divMsg')">
+            <img src="images/searchIcon.PNG">
+            Find jobs, people, and more
+        </button>
+    </div>
+
+    <a href="sign-up.html"><button id="join"> Join now </button></a>
+    <a href="sign-in.html"><button id="SignInButton"> Sign In </button></a>
+
+    <div id="divMsg" style="display:none">
+       hash
+    </div>
+
+</body>
+</html>

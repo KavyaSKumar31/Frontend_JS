@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(255,255,255);
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    
+}
+
+th {
+    height: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    line-height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    size: 15px;
+    line-height: 23px;
+}
+
+table.VerticalAllignment td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+/* Example box  */
+
+.outerBox {
+    background-color:#ddd;
+    width: 50%;
+    height: 220px;
+    margin:20px;
+    padding-left:20px;
+    
+}
+
+.innerBox {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    overflow-x: auto;
+    text-align:left;
+    margin:20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    padding:10px;
+}
